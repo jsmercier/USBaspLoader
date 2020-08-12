@@ -1,12 +1,12 @@
 # Name: Makefile.inc
 # Project: USBaspLoader (updater)
-# Author: Stephan B�rwolf
+# Author: Stephan Barwolf
 # Creation Date: 2012-09-01
 # Tabsize: 4
 # License: GNU GPL v2 (see License.txt)
 
 F_CPU = 16000000
-DEVICE = atmega32
+DEVICE = atmega8
 
 # where the updating firmware should be located (starting address)
 FLASHADDRESS = 0x0000
